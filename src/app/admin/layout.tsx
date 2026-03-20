@@ -19,8 +19,10 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
     <div className="flex min-h-screen bg-gray-50 font-sans">
       {/* Sidebar */}
       <aside className="w-64 bg-white border-r border-gray-200 hidden md:flex flex-col">
-        <div className="p-6 border-b border-gray-100 flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white font-bold">U</div>
+        <div className="p-6 border-b border-gray-100 flex items-center gap-3">
+          <div className="w-10 h-10 bg-gradient-to-br from-primary to-rose-600 rounded-xl flex items-center justify-center shadow-lg shadow-primary/30 rotate-3">
+            <span className="text-white font-black text-xl font-serif italic">U</span>
+          </div>
           <span className="font-black text-secondary tracking-tight">Admin Portal</span>
         </div>
         
@@ -55,7 +57,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
       <main className="flex-grow">
         <header className="h-16 bg-white border-b border-gray-100 flex items-center justify-between px-8">
           <h1 className="text-xl font-black text-secondary tracking-tight">
-            Ujjwala <span className="text-primary italic">Services</span>
+            Ujjwala <span className="text-primary italic">Makeover</span>
           </h1>
           <div className="flex items-center gap-4">
              <div className="px-3 py-1 bg-green-50 text-green-600 rounded-full text-xs font-black uppercase tracking-widest border border-green-100">

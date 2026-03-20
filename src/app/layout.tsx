@@ -12,8 +12,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Ujjwala Services | Gorakhpur ki Best Home Services",
-  description: "Ujjwala Services - Gorakhpur mein Salon aur Beauty services ab aapke doorstep par. Bharosemand aur asaan booking.",
+  title: "Ujjwala Makeover | Gorakhpur ki Best Home Services",
+  description: "Ujjwala Makeover - Gorakhpur mein Salon aur Beauty services ab aapke doorstep par. Bharosemand aur asaan booking.",
 };
 
 import { SEOHandler } from "@/components/layout/SEOHandler";

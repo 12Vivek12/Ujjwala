@@ -14,7 +14,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">1. Introduction</h2>
               <p>
-                Welcome to Ujjwala Services. We value your privacy and are committed to protecting your personal data. 
+                Welcome to Ujjwala Makeover. We value your privacy and are committed to protecting your personal data. 
                 This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website 
                 or use our services in Gorakhpur.
               </p>

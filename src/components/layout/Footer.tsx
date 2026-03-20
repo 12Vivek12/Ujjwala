@@ -7,11 +7,14 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
-                <span className="text-white font-bold text-lg">U</span>
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-gradient-to-br from-primary to-rose-600 rounded-xl flex items-center justify-center shadow-lg shadow-primary/30 rotate-3">
+                <span className="text-white font-black text-xl font-serif italic">U</span>
               </div>
-              <span className="text-xl font-bold">Ujjwala Services</span>
+              <div className="flex flex-col leading-none">
+                <span className="text-xl font-black text-white tracking-tight">Ujjwala</span>
+                <span className="text-[10px] uppercase font-bold tracking-widest text-white/70 mt-0.5">Makeover</span>
+              </div>
             </div>
             <p className="text-white/70">
               Gorakhpur ki sabse bharosemand home service provider. Hum laate hain quality aur convenience seedhe aapke ghar.
@@ -67,7 +70,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50">
-          <p>© {new Date().getFullYear()} Ujjwala Services. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Ujjwala Makeover. All rights reserved.</p>
           <div className="flex flex-wrap gap-6 text-sm">
             <Link href="/admin/dashboard" className="text-white/30 hover:text-white transition-colors">Admin Portal</Link>
             <Link href="/privacy" className="text-white/50 hover:text-white transition-colors">Privacy Policy</Link>

@@ -41,7 +41,7 @@ export default function SEOPage() {
       <div className="flex justify-between items-center">
         <div>
           <h2 className="text-3xl font-black text-secondary tracking-tight">SEO Engine 🚀</h2>
-          <p className="text-gray-500 font-bold">Optimize how Google sees Ujjwala Services.</p>
+          <p className="text-gray-500 font-bold">Optimize how Google sees Ujjwala Makeover.</p>
         </div>
         <button 
           onClick={() => setSelectedRoute({ route: "", title: "", meta_description: "", keywords: "" })}

@@ -17,7 +17,7 @@ export default function AboutPage() {
             </h1>
             <p className="text-xl text-foreground/80 max-w-3xl mx-auto leading-relaxed">
               Gorakhpur ke har ghar mein khushiyan aur suvidha pahunchane ka ek sapna. 
-              Ujjwala Services sirf ek platform nahi, aapka bharosemand saathi hai.
+              Ujjwala Makeover sirf ek platform nahi, aapka bharosemand saathi hai.
             </p>
           </div>
         </section>
@@ -60,7 +60,7 @@ export default function AboutPage() {
         {/* Why We Are Different */}
         <section className="py-20 bg-primary/5">
           <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Ujjwala Kyun Chunein?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Ujjwala Makeover Kyun Chunein?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 { 

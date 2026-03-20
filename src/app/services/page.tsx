@@ -115,7 +115,7 @@ export default function ServicesPage() {
                         {service.name}
                       </h3>
                       <Link 
-                        href={`https://wa.me/917310382894?text=Hello+Ujjwala%2C+I+want+to+book+${encodeURIComponent(service.name)}`}
+                        href={`https://wa.me/917310382894?text=Hello+Ujjwala+Makeover%2C+I+want+to+book+${encodeURIComponent(service.name)}`}
                         target="_blank"
                         className="p-2 bg-primary/5 text-primary rounded-full hover:bg-primary hover:text-white transition-all transform scale-90"
                       >

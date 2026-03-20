@@ -14,7 +14,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">1. Acceptance of Terms</h2>
               <p>
-                By accessing and using Ujjwala Services, you agree to be bound by these Terms and Conditions. 
+                By accessing and using Ujjwala Makeover, you agree to be bound by these Terms and Conditions. 
                 Our services are currently offered exclusively in Gorakhpur, Uttar Pradesh.
               </p>
             </section>
@@ -46,7 +46,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">5. Limitation of Liability</h2>
               <p>
-                Ujjwala Services strives for excellence, but we are not liable for indirect or consequential damages 
+                Ujjwala Makeover strives for excellence, but we are not liable for indirect or consequential damages 
                 arising from the use of our platform or services.
               </p>
             </section>

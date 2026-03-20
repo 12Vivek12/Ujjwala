@@ -13,12 +13,12 @@ const WHATSAPP_NUMBER = "917310382894"
 
 export default function Home() {
   const handleServiceClick = (service: any) => {
-    const message = encodeURIComponent(`Hello Ujjwala Services, I want to book ${service.title}.`)
+    const message = encodeURIComponent(`Hello Ujjwala Makeover, I want to book ${service.title}.`)
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank")
   }
 
   const handleGeneralBooking = () => {
-    const message = encodeURIComponent(`Hello Ujjwala Services, I want to inquire about your home services.`)
+    const message = encodeURIComponent(`Hello Ujjwala Makeover, I want to inquire about your home services.`)
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank")
   }
 

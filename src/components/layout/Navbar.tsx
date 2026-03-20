@@ -22,14 +22,13 @@ export const Navbar = () => {
       scrolled ? "bg-white/95 backdrop-blur-md shadow-lg py-2" : "bg-white py-4"
     }`}>
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center rotate-3 group-hover:rotate-6 transition-transform">
-            <span className="text-white font-black text-xl">U</span>
+        <Link href="/" className="flex items-center gap-3 group">
+          <div className="w-12 h-12 bg-gradient-to-br from-primary to-rose-600 rounded-2xl flex items-center justify-center shadow-lg shadow-primary/30 group-hover:scale-105 transition-transform rotate-3 group-hover:rotate-6">
+            <span className="text-white font-black text-2xl font-serif italic">U</span>
           </div>
           <div className="flex flex-col leading-none">
             <span className="text-xl font-black text-secondary tracking-tight">Ujjwala</span>
-            <span className="text-[10px] uppercase font-bold tracking-widest text-primary">Services</span>
+            <span className="text-[10px] uppercase font-bold tracking-widest text-primary mt-0.5">Makeover</span>
           </div>
         </Link>
         
@@ -105,7 +104,7 @@ export const Navbar = () => {
                 <MessageSquare size={20} /> Book on WhatsApp
               </a>
               <p className="mt-6 text-center text-xs font-bold text-foreground/20 uppercase tracking-widest flex items-center justify-center gap-2">
-                <Sparkles size={12} /> Ujjwala Services
+                <Sparkles size={12} /> Ujjwala Makeover
               </p>
             </div>
           </motion.div>
